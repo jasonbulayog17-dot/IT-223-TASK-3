@@ -733,5 +733,32 @@
         </tr>
         <tr>
             <td>NULLIF</td>
-            <td>Returns null if equal.</td
+            <td>Returns null if equal.</td>
+            <td>SELECT NULLIF(salary, 50000) AS result FROM employees LIMIT 1</td>
+            <td><a href="NULLIF.php" target="_blank">View Output</a></td>
+        </tr>
+        <tr>
+            <td>SESSION_USER</td>
+            <td>Returns the session user.</td>
+            <td>SELECT SESSION_USER() AS result</td>
+            <td><a href="SESSION_USER.php" target="_blank">View Output</a></td>
+        </tr>
+        <tr>
+            <td>SYSTEM_USER</td>
+            <td>Returns the system user.</td>
+            <td>SELECT SYSTEM_USER() AS result</td>
+            <td><a href="SYSTEM_USER.php" target="_blank">View Output</a></td>
+        </tr>
+        <tr>
+            <td>USER</td>
+            <td>Returns the current user.</td>
+            <td>SELECT USER() AS result</td>
+            <td><a href="USER.php" target="_blank">View Output</a></td>
+        </tr>
+        <tr>
+            <td>VERSION</td>
+            <td>Returns the MySQL version.</td>
+            <td>SELECT VERSION() AS result</td>
+            <td><a href="VERSION.php" target="_blank">View Output</a></td>
+        </tr>
 
